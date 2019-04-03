@@ -1,0 +1,25 @@
+{
+  "name": "webauth-i-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:heyjuststart/webauth-i-challenge.git",
+  "author": "heyjuststart <41658450+heyjuststart@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "connect-session-knex": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "helmet": "^3.16.0",
+    "knex": "^0.16.3",
+    "sqlite": "^3.0.3"
+  },
+  "devDependencies": {
+    "knex-cleaner": "^1.1.4",
+    "nodemon": "^1.18.10"
+  }
+}
